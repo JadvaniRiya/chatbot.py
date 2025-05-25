@@ -2,7 +2,7 @@ def chatbot_response(user_input):
     user_input = user_input.lower()
     if "hello" in user_input or "hi" in user_input:
         return "Hello! How can I help you today?"
-    elif "your name" in user_input:
+    elif "Jadvani Riya" in user_input:
         return "I'm a simple chatbot created in Python."
     elif "bye" in user_input:
         return "Goodbye! Have a great day."
